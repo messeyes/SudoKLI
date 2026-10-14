@@ -1,4 +1,4 @@
-package com.mess.sudokli.core;
+package mess.sudokli.core;
 
 import mess.sudokli.core.Cell;
 import org.junit.jupiter.api.Test;
