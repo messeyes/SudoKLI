@@ -11,10 +11,6 @@ public class Cell {
         this.fixed = fixed;
     }
 
-    public Cell(Integer value) {
-        this.value = value;
-    }
-
     public Integer getValue() {
         return value;
     }
@@ -25,5 +21,12 @@ public class Cell {
 
     public boolean isFixed() {
         return fixed;
+    }
+
+    public void setValue(Integer value) {
+        if (fixed) {
+            throw new IllegalStateException("Cannot modify a fixed cell.");
+        }
+        this.value = value;
     }
 }
