@@ -1,6 +1,5 @@
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 .kotlin
@@ -47,3 +46,28 @@ bin/
 local.properties
 .env
 *.log
+
+# Compiled class file
+*.class
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Gradle wrapper (must stay after *.jar)
+!gradle/wrapper/gradle-wrapper.jar
